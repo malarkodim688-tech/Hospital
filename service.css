@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+.servicecard{
+    min-height: 100vh;
+    /* border: 1px solid black; */
+    margin-top:80px;
+    padding:30px;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+.servicecard h1{
+     text-align: center;
+    color: rgb(15, 85, 85);
+    font-family: "Archivo Black", sans-serif;
+}
+.servicecard .subhead{
+    text-align: center;
+    margin-top: 20px;  
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+}
+.serviceinside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.service1{
+    min-height:500px;
+    width:350px;
+    border: 1px solid gray;
+    padding:10px;
+    position: relative;
+    border-radius: 20px;
+box-shadow: 10px 10px grey;
+background-color:whitesmoke;
+}
+.service1 img{
+    height:250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.service1 .bottom{
+      padding: 10px;
+    
+}
+.bottom h2{
+    margin-top: 30px;
+    color: teal;
+}
+.bottom .content{
+    line-height: 25px;
+    margin-top: 15px;
+    color: gray;
+}
+ .service1 .serviceround{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color:rgb(42, 42, 173);
+    color: white;
+    position: absolute;
+    bottom:-30px;
+    left: 130px;
+}
+.serviceround{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.serviceround i{
+    font-size:40px;
+}
+ .serviceround2{
+     height:80px;
+    width:80px;
+    border-radius: 50%;
+    border:15px double aliceblue;
+    position: absolute;
+    top: 220px;
+    left:130px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .serviceround2 i{
+    font-size: 29px;
+    background-color: teal;
+    padding:18px;
+    border-radius: 50%;
+    color: white;
+ }
+ @media only screen and (min-width:600px) and (max-width:900px){
+    .servicecard h1{
+        margin-top:70px;
+    }
+ }
+ @media only screen and (min-width:300px) and (max-width:400px){
+   .serviceround2{
+    left:100px;
+ }
+ .service1 .serviceround{
+    left: 100px;
+}
+ }

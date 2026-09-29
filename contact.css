@@ -1,0 +1,418 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+  .footer{
+    min-height: 100vh;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    padding: 20px;
+    overflow-x: hidden;
+     font-family: "Archivo Black", sans-serif;
+     background-color: white;
+     position: relative;
+}
+.insidefooter{
+    min-height:500px;
+    /* border: 1px solid black; */
+      margin-top:200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-image: linear-gradient(teal,whitesmoke);
+      /* clip-path:path('M 700,0 L 700,0 L 1000,250 L 1000,600 L 0,1000 L 0,210 L 500,0 Z'); */
+}
+.footer1, .footer2, .footer3, .footer4{
+    /* min-height: 500px; */
+    margin-top:100px;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+}
+.btn1{
+    min-height:50px;
+    width: 290px;
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    background-color:white;
+    position: relative;
+}
+.btn1 p{
+   position: absolute;
+   top:10px;
+   left:10px;
+   color: gray;
+}
+.btn2{
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    position: absolute;
+    left:160px;
+    top:3px;
+}
+.btn2 i{
+    font-size: 20px;
+    color: white;
+}
+.footer1 h1{
+    /* color: white; */
+}
+.footer1 p{
+    line-height: 30px;
+    /* margin-left: 100px; */
+}
+.footer2 p{
+    line-height: 30px;
+    margin-left: 100px;
+}
+.footer3 p{
+    line-height: 30px;
+    margin-left: 100px;
+}
+.footer4 p{
+    line-height: 30px;
+    /* color: gray; */
+}
+.prohealth{
+    min-height:200px;
+    width: 200px;
+    /* border:1px solid black; */
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 1px black, -2px -2px 5px 5px lightblue;
+}
+.prohealth{
+    position: absolute;
+    top: 90px;
+    left:560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+.health1{
+    min-height: 170px;
+    width: 170px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    animation-name: health;
+    animation-duration:3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes health {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-70px);
+         color: white;
+  text-shadow: 2px 2px 4px #000000;
+        box-shadow: 1px 1px 5px 10px white,-1px -1px 5px 10px teal;
+    }
+    
+}
+.oval {
+  height:290px;
+  width: 590px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  transform: skewX(-50deg);
+}
+.oval1{
+  height:300px;
+  width: 600px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  transform: skewX(50deg);
+}
+.health1 i{
+    position: absolute;
+    top: 20px;
+    left:70px;
+}
+@media only screen and (min-width:1033px) and (max-width:1070px){
+.prohealth{
+    position: absolute;
+    top: 90px;
+    left:440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:970px) and (max-width:1033px){
+.prohealth{
+    position: absolute;
+    top: 90px;
+    left:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:600px) and (max-width:970px){
+   .insidefooter{
+    min-height:500px;
+    /* border: 1px solid black; */
+      margin-top:200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-image: linear-gradient(teal,whitesmoke);
+      /* clip-path:path('M 700,0 L 700,0 L 1000,250 L 1000,600 L 0,1000 L 0,210 L 500,0 Z'); */
+}
+.footer1, .footer2, .footer3, .footer4{
+    /* min-height: 500px; */
+    margin-top:130px;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.footer1 h1{
+    text-align: center;
+}
+.footer2 p{
+    margin-left:0px;
+}
+.footer3 p{
+    margin-left: 0px;
+}
+.footer4 p{
+    text-align: center;
+}
+.prohealth{
+    position: absolute;
+    top:130px;
+    left:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+
+
+}
+@media only screen and (min-width:900px) and (max-width:930px){
+.prohealth{
+    position: absolute;
+    top: 99px;
+    left:360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:800px) and (max-width:900px){
+.prohealth{
+    position: absolute;
+    top: 120px;
+    left:330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:740px) and (max-width:800px){
+.prohealth{
+    position: absolute;
+    top: 120px;
+    left:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+
+}
+@media only screen and (min-width:670px) and (max-width:740px){
+.prohealth{
+    position: absolute;
+    top: 120px;
+    left:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:600px) and (max-width:670px){
+.prohealth{
+    position: absolute;
+    top: 130px;
+    left:230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+   .insidefooter{
+    min-height:500px;
+    /* border: 1px solid black; */
+      margin-top:200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-image: linear-gradient(teal,whitesmoke);
+      /* clip-path:path('M 700,0 L 700,0 L 1000,250 L 1000,600 L 0,1000 L 0,210 L 500,0 Z'); */
+}
+.footer1, .footer2, .footer3, .footer4{
+    /* min-height: 500px; */
+    margin-top:130px;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+.footer1 h1{
+    text-align: center;
+    /* font-size:20px; */
+    width: 20%;
+}
+.footer2 p{
+    margin-left:0px;
+}
+.footer3 p{
+    margin-left: 0px;
+}
+.footer4 .subscribe{
+    text-align: center;
+    width: 30%;
+}
+.footer4 h2{
+    /* font-size: 20px; */
+    width: 20%;
+}
+.prohealth{
+    position: absolute;
+    top:130px;
+    left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+
+
+}
+@media only screen and (min-width:490px) and (max-width:560px){
+.prohealth{
+    position: absolute;
+    top: 130px;
+    left:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:440px) and (max-width:490px){
+.prohealth{
+    position: absolute;
+    top: 140px;
+    left:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:400px) and (max-width:440px){
+.prohealth{
+    position: absolute;
+    top: 140px;
+    left:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+.prohealth{
+    position: absolute;
+    top: 140px;
+    left:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,whitesmoke, teal,black);
+}
+.btn1{
+    min-height:50px;
+    width: 190px;
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    background-color:white;
+    position: relative;
+    left: -40px;
+}
+.btn1 p{
+   position: absolute;
+   top:10px;
+   left:10px;
+   color: gray;
+}
+.btn2{
+    padding:15px;
+    width:100px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border: none;
+    position: absolute;
+    left:150px;
+    top:1px;
+}
+.btn2 i{
+    font-size:15px;
+    color: white;
+}
+}
